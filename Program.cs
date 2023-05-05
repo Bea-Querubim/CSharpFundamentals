@@ -4,7 +4,7 @@
     {
         /* instanciar uma struct,sem parametro
          * 
-         * Product mouse= new Product();
+        Product mouse= new Product();
          * 
          * se for sem parametro ele pula o metodo construtor!
          * os valores mantem 0 ou \0 (para string)
