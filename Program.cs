@@ -26,7 +26,7 @@
 }
 struct Product
 {
-    //metodo construtor
+    //metodo construtor - como funciona
     public Product(int id, string name, double price, EProductType type)// tem que conter o mesmo nome da struct
     {
         Id = id; // propriedade recebe parametro
@@ -34,9 +34,11 @@ struct Product
         Price = price; // propriedade recebe parametro
         Type = type;  // type com minusculo é o parametro
     }
-    public int Id;  //prioriedade
-    public string Name;  //prioriedade
-    public double Price;  //prioriedade
+
+    //struct 
+    public int Id;  //propriedade
+    public string Name;  //propriedade
+    public double Price;  //propriedade
     public EProductType Type; // EProductType -> é o tipo
 
     public double PriceInDolar(double dolar)
