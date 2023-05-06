@@ -31,5 +31,6 @@ internal class Program
         Console.Clear();
         Console.WriteLine("Fishing Stopwatch");
         Thread.Sleep(2500);
+        Console.Clear();
     }
 }
